@@ -71,6 +71,7 @@ export default function LandingPage() {
             <div>
                 <p>Click the link below to download the zipped file:</p>
                 <a href={zipFile} download><Button>Download the zipped file</Button></a>
+                <p>Note, For now it only works on tabs with loaded http/https website</p>
             </div>
             </Col>
         </Row>
