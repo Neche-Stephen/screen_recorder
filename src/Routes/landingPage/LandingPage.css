@@ -1,0 +1,69 @@
+
+/* Sora
+Inter
+Work Sans */
+
+/* Header */
+
+header{
+    padding: 10px 0;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.07);
+    position: relative;
+    /* width: 100%; */
+}
+
+.navlogo_text{
+    color: var( --primary-color);
+    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav_middle_text{
+    color: #000;
+    /* font-family: Work Sans; */
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav_end_text{
+    color: var(--primary-main, #120B48);
+    /* font-family: Sora; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar_links{
+    display:none;
+    position: absolute;
+    top: 70px;
+    width: 80% !important;
+}
+.navbar_links a{
+    text-decoration: none;
+}
+.navbar_links li{
+    list-style: none;
+}
+.navbar_links.active{
+    display: block;
+}
+.navbar-toggle {
+    cursor: pointer;
+}
+
+@media(max-width:991px){
+    header.active{
+        height: 200px;
+    }
+}
